@@ -11,7 +11,7 @@ export default function WorkoutActions({ workout }: { workout: Workout }) {
     <div className="mt-8 flex flex-wrap gap-3">
       <button
         onClick={() => addToPlan(workout)}
-        className="inline-flex items-center gap-2 rounded-md bg-[var(--accent)] px-5 py-3 text-sm font-black uppercase tracking-wide text-black"
+        className="inline-flex items-center gap-2 rounded-md bg-(--accent) px-5 py-3 text-sm font-black uppercase tracking-wide text-black"
       >
         <Plus size={17} />
         Add to today&apos;s plan

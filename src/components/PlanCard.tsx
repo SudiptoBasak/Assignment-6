@@ -49,7 +49,7 @@ export default function PlanCard({
           <button
             onClick={() => markAsDone(workout.id)}
             disabled={done}
-            className="inline-flex items-center gap-1 rounded-md bg-[var(--accent)] px-3 py-2 text-xs font-black uppercase text-black disabled:opacity-50"
+            className="inline-flex items-center gap-1 rounded-md bg-(--accent) px-3 py-2 text-xs font-black uppercase text-black disabled:opacity-50"
           >
             <Check size={14} />
             {done ? "Done" : "Mark as Done"}
