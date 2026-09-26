@@ -20,7 +20,7 @@ export default function HomeLibrary({ workouts }: { workouts: Workout[] }) {
     <section id="library" className="container-fitlog py-14 md:py-18 lg:py-20">
       <div className="mb-8 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.28em] text-[var(--accent)]">
+          <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.28em] text-(--accent)]">
             Workout Library
           </p>
           <h2 className="display-font text-4xl uppercase md:text-5xl">The Library</h2>

@@ -15,7 +15,7 @@ export default function MyPlanClient() {
   return (
     <main className="container-fitlog py-14 md:py-20">
       <div className="max-w-3xl">
-        <p className="text-xs font-bold uppercase tracking-[.3em] text-[var(--accent)]">Workout Log</p>
+        <p className="text-xs font-bold uppercase tracking-[.3em] text-(--accent)">Workout Log</p>
         <h1 className="display-font mt-3 text-5xl uppercase md:text-7xl">My Plan</h1>
         <p className="mt-3 text-sm text-white/50">Cap of five lifts for today. Finish them, then load more.</p>
       </div>
