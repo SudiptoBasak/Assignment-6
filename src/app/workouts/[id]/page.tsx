@@ -3,7 +3,7 @@ import DetailContent from "../../../components/DetailContent";
 import type { Workout } from "../../../types/workout";
 
 const getWorkout = async (id: string): Promise<Workout> => {
-  const res = await fetch(`https://api.abcz.workers.dev/api/fitlog/${id}`);
+  const res = await fetch(`https://api.api-store.workers.dev/api/fitlog/${id}`);
   
 
   if (!res.ok) {

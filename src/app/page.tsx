@@ -3,7 +3,7 @@ import HomeLibrary from "../components/HomeLibrary";
 import type { Workout } from "../types/workout";
 
 const getWorkouts = async (): Promise<Workout[]> => {
-  const res = await fetch("https://api.abcz.workers.dev/api/fitlog", { cache: "no-store" });
+  const res = await fetch("https://api.api-store.workers.dev/api/fitlog", { cache: "no-store" });
   if (!res.ok) throw new Error("Failed to fetch workouts");
   const data: Workout[] = await res.json();
   return data;
