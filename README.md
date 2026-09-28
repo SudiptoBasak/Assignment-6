@@ -1,24 +1,56 @@
-# FitLog(project_name)
+# 🏋️ FitLog
 
-## Project Description
+FitLog is a responsive workout library and workout-plan tracker built with Next.js and TypeScript. Users can explore workouts, view workout details, create a daily workout plan, and track their workout progress.
 
-FitLog is a dark workout library and workout-plan tracker built from the provided FitLog Figma design and assignment requirements.
+## 🚀 Live Demo
 
-## Technologies
+[View Live Demo](https://capable-bienenstitch-7b19a3.netlify.app/)
 
-- Next.js App Router
+## 🛠️ Technologies Used
+
+- Next.js
 - React
 - TypeScript
 - Tailwind CSS
 - Lucide React
 - React Toastify
-- FitLog API
+- REST API
 
-## Key Features
+## ✨ Key Features
 
-- Responsive workout library with API data
-- Workout details page with required workout information
-- Add workouts to Today's Plan and save workouts for later
-- My Plan page with live exercises, minutes and calories metrics
-- Duration, calories and rating sorting
-- Mark as Done and Remove actions with toast notifications
+- 📚 Browse workouts from the API
+- 🔎 View detailed information about each workout
+- ➕ Add workouts to Today's Plan
+- 💾 Save workouts for later
+- 📊 Track exercises, duration and calories
+- 🔄 Sort workouts by duration, calories and rating
+- ✅ Mark workouts as completed
+- 🗑️ Remove workouts from the plan
+- 🔔 Toast notifications for user actions
+- 📱 Responsive design for different screen sizes
+
+## 📦 Dependencies
+
+### Main Dependencies
+
+- `next`
+- `react`
+- `react-dom`
+- `lucide-react`
+- `react-toastify`
+
+### Development Dependencies
+
+- `typescript`
+- `tailwindcss`
+- `@tailwindcss/postcss`
+- `@types/node`
+- `@types/react`
+- `@types/react-dom`
+
+## 💻 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sudiptoDip/FitLog-Project.git
